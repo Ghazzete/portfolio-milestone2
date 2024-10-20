@@ -29,7 +29,7 @@ const data = [
         id: 3,
         title: "Countdown Timer",
         desc: "A React & Typescript powered wibsite to track time with an interactive countdown feature",
-        img:"/project01.PNG",
+        img:"/project01.png",
         tags: ["React", "Node", "Tailwind", "Typescript"],
     },
 ]
