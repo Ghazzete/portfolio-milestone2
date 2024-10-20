@@ -18,7 +18,7 @@ const data = [
     tags: ["React", "Node", "Tailwind", "Typescript"],
     },
     {
-        id: 0,
+        id: 2,
         title: "Number Guessing",
         desc: "A React & Typescript wibsite number guessing game where users try to guess the correct number",
         img:"/project03.PNG",
@@ -26,7 +26,7 @@ const data = [
     },
    
     {
-        id: 0,
+        id: 3,
         title: "Countdown Timer",
         desc: "A React & Typescript powered wibsite to track time with an interactive countdown feature",
         img:"/project01.PNG",
