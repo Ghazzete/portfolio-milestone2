@@ -27,7 +27,7 @@ const Navbar = () => {
             <a href='#Skills' onClick={toggleMenu}>Skills</a>
           </li>
           <li className='menuLink'>
-            <a href='#Contact' onClick={toggleMenu}>Contact</a>
+            <a href='#contact' onClick={toggleMenu}>Contact</a>
           </li>
         </ul>
       </div>
