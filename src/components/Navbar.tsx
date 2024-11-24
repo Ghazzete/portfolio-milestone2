@@ -1,33 +1,42 @@
 import React, { useState } from 'react';
 import { LuMenu } from "react-icons/lu";
+import '../app/styles/navbar.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsOpen(prev => !prev);
+    setIsOpen((prev) => !prev);
   };
 
   return (
-    <div className='container pt-8'>
-      <div className='flex justify-between items-center'>
-        <div className='text-4xl font-medium text-yellow-600'data-aos="zoom-in">My Portfolio</div>
-        <LuMenu className='md:hidden cursor-pointer' size={30} onClick={toggleMenu} />
-        <ul className={`gap-10 lg:gap-16 ${isOpen ? 'flex flex-col md:flex-row' : 'hidden md:flex'} transition-all duration-300`}>
-          <li className='menuLink'>
-            <a href='#hero' onClick={toggleMenu}>Home</a>
+    <div className="navbar-container">
+      <div className="navbar">
+        <div className="navbar-content" data-aos="zoom-in">My Portfolio</div>
+        <LuMenu
+          className="navbar-menu-icon"
+          size={30}
+          onClick={toggleMenu}
+        />
+        <ul
+          className={`navbar-links ${
+            isOpen ? "navbar-menu" : "md:flex"
+          }`}
+        >
+          <li className="navbar-link">
+            <a href="#hero" onClick={toggleMenu}>Home</a>
           </li>
-          <li className='menuLink'>
-            <a href='#about' onClick={toggleMenu}>About</a>
+          <li className="navbar-link">
+            <a href="#about" onClick={toggleMenu}>About</a>
           </li>
-          <li className='menuLink'>
-            <a href='#Projects' onClick={toggleMenu}>Projects</a>
+          <li className="navbar-link">
+            <a href="#projects" onClick={toggleMenu}>Projects</a>
           </li>
-          <li className='menuLink'>
-            <a href='#Skills' onClick={toggleMenu}>Skills</a>
+          <li className="navbar-link">
+            <a href="#skills" onClick={toggleMenu}>Skills</a>
           </li>
-          <li className='menuLink'>
-            <a href='#contact' onClick={toggleMenu}>Contact</a>
+          <li className="navbar-link">
+            <a href="#contact" onClick={toggleMenu}>Contact</a>
           </li>
         </ul>
       </div>

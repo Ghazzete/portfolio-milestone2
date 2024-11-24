@@ -1,0 +1,88 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.heading {
+  padding-top: 20px;
+  font-size: 48px;
+  font-weight: 600;
+  color: #333;
+  text-transform: capitalize;
+}
+
+.subheading {
+  padding-top: 20px;
+  font-size: 18px;
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+.contact-info {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 16px;
+  color: #1f2937;
+  padding: 20px 0;
+  border-bottom: 1px solid #d1d5db;
+}
+
+.contact-info svg {
+  color: #d97706;
+}
+
+.contact-info span {
+  font-size: 16px;
+}
+
+.form-group {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.input,
+.textarea {
+  height: 40px;
+  padding: 8px;
+  background: transparent;
+  border: 1px solid #d97706;
+  border-radius: 4px;
+  color: #1f2937;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: #f59e0b;
+  box-shadow: 0 0 4px rgba(245, 158, 11, 0.5);
+}
+
+.textarea {
+  resize: none;
+  height: auto;
+  padding: 12px;
+}
+
+.button {
+  margin-top: 20px;
+  background-color: #f59e0b;
+  color: white;
+  padding: 8px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #d97706;
+  transform: translateY(-2px);
+}

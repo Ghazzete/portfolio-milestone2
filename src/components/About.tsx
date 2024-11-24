@@ -1,10 +1,13 @@
 import React from 'react'
+import '../app/styles/about.css'
+
+
 
 const About = () => {
   return (
-    <div id='about' className='container pt-32'>
-        <h2 className='text-4xl md:text-5xl'data-aos="zoom-in">About Me</h2>
-        <p className='text-gray-500 pt-4'data-aos="zoom-in">
+    <div id='about' className='about-container'>
+        <h2 className= "about-heading" data-aos="zoom-in">About Me</h2>
+        <p className="about-text"data-aos="zoom-in">
             I am a student a GIAIC, pursuing a course in Artificial Intelligence, web3.O, Metaverse. Pasionate 
             about techonology and constantly learning new skills stay up-to-date with the latest innovations.
         </p>
@@ -12,4 +15,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About ;

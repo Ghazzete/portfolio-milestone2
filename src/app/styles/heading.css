@@ -1,0 +1,41 @@
+.heading-container {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.heading-title {
+    border-bottom: 4px solid #ffffff;
+    display: inline-block;
+    padding-bottom: 5rem;
+    margin: 0;
+}
+@media (max-width: 1024px) {
+    .heading-container {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .heading-tittle {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 786px) {
+    .heading-container{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    .heading-tittle {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width:480px) {
+    .heading-container {
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+    }
+    .heading-tittle {
+        font-size: 3rem ;
+    }
+}

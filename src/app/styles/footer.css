@@ -1,0 +1,15 @@
+.footer {
+    margin-top: 4rem ;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #fed711c7;
+    color: #fff;
+    font-size: 1rem;
+}
+
+@media (max-width: 786px) {
+    .footer {
+        padding: 1.5rem;
+        font-size: 1.125rem;
+    }
+}
